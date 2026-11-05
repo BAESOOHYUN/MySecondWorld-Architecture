@@ -443,7 +443,7 @@
           <mxGeometry height="141" width="890" x="760" y="169" as="geometry" />
         </mxCell>
         <mxCell id="c50" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingRight=8;spacingTop=6;spacingBottom=4;fontSize=13;" value="&lt;b style=&quot;font-size:14px&quot;&gt;참고 — 어셈블리 밖 코드&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:13px&quot;&gt;에디터 전용 도구(Editor 폴더, 33파일)와 루트의 디버그용 스크립트(DebugButtonRelay · TestManager 등)는 asmdef 없이 기본 어셈블리에 있다. asmdef로 나눈 이점: 스크립트를 고치면 그 어셈블리와 그걸 참조하는 쪽만 다시 컴파일된다.&lt;/span&gt;" vertex="1">
-          <mxGeometry height="69" width="1610" x="40" y="1814" as="geometry" />
+          <mxGeometry height="69" width="1610" x="40" y="1530" as="geometry" />
         </mxCell>
         <mxCell id="lg6_1" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontSize=12;" value="조립 루트 · 공용 기반" vertex="1">
           <mxGeometry height="28" width="188" x="860" y="8" as="geometry" />
@@ -2617,11 +2617,9 @@
         <mxCell id="lr_2" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontSize=12;" value="플레이어 기기" vertex="1">
           <mxGeometry height="24" width="150" x="360" y="62" as="geometry" />
         </mxCell>
-        <mxCell id="lr_3" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontSize=12;" value="실제로 났던 사고" vertex="1">
-          <mxGeometry height="24" width="150" x="520" y="62" as="geometry" />
-        </mxCell>
+        
         <mxCell id="lr_4" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontSize=12;" value="설명 메모" vertex="1">
-          <mxGeometry height="24" width="150" x="680" y="62" as="geometry" />
+          <mxGeometry height="24" width="150" x="520" y="62" as="geometry" />
         </mxCell>
         <mxCell id="lr_note" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" value="▸ = 클래스.메서드. 화살표 글씨 = 전달하는 방법. 번호 ① ② ③ = 빌드 산출물" vertex="1">
           <mxGeometry height="28" width="790" x="850" y="60" as="geometry" />
@@ -2677,7 +2675,7 @@
         <mxCell id="n1" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;개발 중에는 내 PC가 8080을 서빙한다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;LocalBundleServerLauncher가 에디터를 열 때 ServerData를 python http.server 8080으로 서빙한다&lt;/span&gt;" vertex="1">
           <mxGeometry height="70" width="790" x="40" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="n2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;로컬 카탈로그는 주소록, 원격 번들은 짐이다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;서버 빌드 안의 StreamingAssets/aa에는 &quot;어떤 에셋이 어디 있나&quot;만 있다. 없으면 서버가 시작 단계에서 멈춘다 (C의 첫 사고)&lt;/span&gt;" vertex="1">
+        <mxCell id="n2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;로컬 카탈로그는 주소록, 원격 번들은 짐이다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;서버 빌드 안의 StreamingAssets/aa에는 &quot;어떤 에셋이 어디 있나&quot;만 있다. 없으면 서버가 시작 단계에서 멈춘다&lt;/span&gt;" vertex="1">
           <mxGeometry height="70" width="790" x="850" y="560" as="geometry" />
         </mxCell>
         <mxCell id="hC" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;" value="B. 원클릭 배포 — 메뉴 하나가 ①② 빌드를 하고, EC2에 올려 다시 켠다" vertex="1">
@@ -2716,57 +2714,23 @@
         <mxCell id="ec5" edge="1" parent="1" source="c5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c6" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hD" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;" value="C. 배포 사고 5건 — 증상과 원인(왼쪽), 지금 코드의 방어 장치(오른쪽)" vertex="1">
-          <mxGeometry height="31" width="1560" x="40" y="865" as="geometry" />
-        </mxCell>
-        <mxCell id="i0r" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;빈 껍데기 서버가 배포됐다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;로그인은 되는데 씬 로드 · 스폰이 멈춘다. 빌드는 성공&lt;br&gt;원인: 서버 빌드에 로컬 카탈로그(aa)가 없어 InitializeAsync가 실패, ServerReady가 영원히 false&lt;/span&gt;" vertex="1">
-          <mxGeometry height="83" width="780" x="40" y="906" as="geometry" />
-        </mxCell>
-        <mxCell id="i0b" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;빌드 단계에서 막는다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;▸ BuildLinuxServer() — aa가 없으면 실패 처리&lt;br&gt;▸ BuildAllInternal() — 번들이 실패하면 서버를 안 굽는다&lt;/span&gt;" vertex="1">
-          <mxGeometry height="83" width="760" x="880" y="906" as="geometry" />
-        </mxCell>
-        <mxCell id="ei0" edge="1" parent="1" source="i0r" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="i0b" value="방어">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="i1r" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;타겟 전환 직후 번들을 빌드했다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;Linux용 로컬 콘텐츠가 빈 채로 서버가 배포됐다&lt;br&gt;원인: 전환 직후 BuildPlayerContent는 이전 타겟(Android) 콘텐츠를 만든다&lt;/span&gt;" vertex="1">
-          <mxGeometry height="83" width="780" x="40" y="1003" as="geometry" />
-        </mxCell>
-        <mxCell id="i1b" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;전환만 하고 멈춘다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;▸ BuildAddressablesRemote() · BuildAndDeployAndroidBundles()&lt;br&gt;타겟이 안 맞으면 전환만 하고 중단, 재임포트 뒤 다시 실행&lt;/span&gt;" vertex="1">
-          <mxGeometry height="83" width="760" x="880" y="1003" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1" edge="1" parent="1" source="i1r" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="i1b" value="방어">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="i2r" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;두 번째 배포부터 번들이 안 바뀌었다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;폴더가 StandaloneLinux64/StandaloneLinux64로 중첩됐다&lt;br&gt;원인: scp -r는 같은 이름 폴더가 있으면 그 안으로 복사한다&lt;/span&gt;" vertex="1">
-          <mxGeometry height="83" width="780" x="40" y="1100" as="geometry" />
-        </mxCell>
-        <mxCell id="i2b" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;올리기 전에 지운다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;▸ BuildAndDeployLinuxServer()&lt;br&gt;원격 폴더를 rm -rf 후 mkdir. Android 번들도 같다&lt;/span&gt;" vertex="1">
-          <mxGeometry height="83" width="760" x="880" y="1100" as="geometry" />
-        </mxCell>
-        <mxCell id="ei2" edge="1" parent="1" source="i2r" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="i2b" value="방어">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="i3r" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;원격 명령이 로컬에서 실행될 뻔했다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;원격 rm -rf가 로컬 PowerShell에서 돌 뻔했다 (피해 없음)&lt;br&gt;원인: 중첩 따옴표가 벗겨져 세미콜론 뒤 명령이 로컬 문장이 됐다&lt;/span&gt;" vertex="1">
-          <mxGeometry height="83" width="780" x="40" y="1197" as="geometry" />
-        </mxCell>
-        <mxCell id="i3b" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;PowerShell을 거치지 않는다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;▸ RunSsh() · RunScp() · RunProcess()&lt;br&gt;ssh.exe · scp.exe를 직접 실행, 와일드카드는 C#에서 펼친다&lt;/span&gt;" vertex="1">
-          <mxGeometry height="83" width="760" x="880" y="1197" as="geometry" />
-        </mxCell>
-        <mxCell id="ei3" edge="1" parent="1" source="i3r" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="i3b" value="방어">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="i4r" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;EC2 디스크가 가득 차 업로드가 실패했다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;scp가 &quot;write remote: Failure&quot;로 죽었다&lt;br&gt;원인: 재빌드해도 구버전 .bundle이 안 지워져 268MB까지 불었다&lt;/span&gt;" vertex="1">
-          <mxGeometry height="83" width="780" x="40" y="1294" as="geometry" />
-        </mxCell>
-        <mxCell id="i4b" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;죽은 번들을 지우고 용량을 찍는다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;▸ PruneStaleBundles() — 현재 카탈로그가 안 쓰는 번들 삭제 (68MB)&lt;br&gt;배포 때 df -h도 함께 찍는다&lt;/span&gt;" vertex="1">
-          <mxGeometry height="83" width="760" x="880" y="1294" as="geometry" />
-        </mxCell>
-        <mxCell id="ei4" edge="1" parent="1" source="i4r" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="i4b" value="방어">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nD" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;align=left;verticalAlign=top;spacingLeft=12;spacingRight=10;spacingTop=8;spacingBottom=6;fontSize=14;" value="&lt;b style=&quot;font-size:15px&quot;&gt;5건 모두 한 커밋에서 고쳤다&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;커밋 f1bc581b (2026-09-06). 로그인 뒤 씬이 멈추는 증상을 추적하다가 파이프라인의 결함이 연달아 드러나 한꺼번에 정리했다.&lt;/span&gt;" vertex="1">
-          <mxGeometry height="56" width="1600" x="40" y="1397" as="geometry" />
-        </mxCell>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
       </root>
     </mxGraphModel>
   </diagram>
