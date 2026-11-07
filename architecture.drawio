@@ -395,22 +395,22 @@
           <mxGeometry height="26" width="190" x="40" y="1364" as="geometry" />
         </mxCell>
         <mxCell id="c33" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingRight=8;spacingTop=6;spacingBottom=4;fontSize=13;" value="&lt;b style=&quot;font-size:14px&quot;&gt;Input&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:13px&quot;&gt;OnUIChecker · TouchEventListener&lt;/span&gt;" vertex="1">
-          <mxGeometry height="87" width="213" x="250" y="1413" as="geometry" />
+          <mxGeometry height="87" width="264" x="250" y="1413" as="geometry" />
         </mxCell>
         <mxCell id="c34" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingRight=8;spacingTop=6;spacingBottom=4;fontSize=13;" value="&lt;b style=&quot;font-size:14px&quot;&gt;Utils&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:13px&quot;&gt;TriggerRelay · 기즈모 도구&lt;/span&gt;" vertex="1">
-          <mxGeometry height="69" width="213" x="487" y="1413" as="geometry" />
+          <mxGeometry height="87" width="264" x="534" y="1413" as="geometry" />
         </mxCell>
         <mxCell id="c35" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingRight=8;spacingTop=6;spacingBottom=4;fontSize=13;" value="&lt;b style=&quot;font-size:14px&quot;&gt;Pool&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:13px&quot;&gt;GameObjectPool · 풀 레지스트리&lt;/span&gt;" vertex="1">
-          <mxGeometry height="87" width="213" x="724" y="1413" as="geometry" />
+          <mxGeometry height="87" width="264" x="818" y="1413" as="geometry" />
         </mxCell>
-        <mxCell id="c36" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingRight=8;spacingTop=6;spacingBottom=4;fontSize=13;" value="&lt;b style=&quot;font-size:14px&quot;&gt;Save&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:13px&quot;&gt;SaveManager · ISaveBackend · SaveData&lt;br&gt;참조: Foundation&lt;/span&gt;" vertex="1">
+        <mxCell id="c36" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;align=left;verticalAlign=top;spacingLeft=10;spacingRight=8;spacingTop=6;spacingBottom=4;fontSize=13;" value="&lt;b style=&quot;font-size:14px&quot;&gt;Save&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:13px&quot;&gt;SaveManager · ISaveBackend · SaveData&lt;br&gt;참조: Foundation&lt;/span&gt;" vertex="1">
           <mxGeometry height="95" width="332" x="1318" y="1045" as="geometry" />
         </mxCell>
         <mxCell id="c37" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingRight=8;spacingTop=6;spacingBottom=4;fontSize=13;" value="&lt;b style=&quot;font-size:14px&quot;&gt;ScriptableObject&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:13px&quot;&gt;NPC 프롬프트 · 기억 · 존/포탈 정의 SO&lt;/span&gt;" vertex="1">
-          <mxGeometry height="87" width="213" x="1198" y="1413" as="geometry" />
+          <mxGeometry height="87" width="264" x="1102" y="1413" as="geometry" />
         </mxCell>
         <mxCell id="c38" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingRight=8;spacingTop=6;spacingBottom=4;fontSize=13;" value="&lt;b style=&quot;font-size:14px&quot;&gt;Inventory&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:13px&quot;&gt;아이템 종류 · 스탯 · 무기 카테고리 enum&lt;/span&gt;" vertex="1">
-          <mxGeometry height="87" width="213" x="1435" y="1413" as="geometry" />
+          <mxGeometry height="87" width="264" x="1386" y="1413" as="geometry" />
         </mxCell>
         <mxCell id="c40" edge="1" parent="1" source="c12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=13;labelBackgroundColor=#FFFFFF;" target="c14" value="참조">
           <mxGeometry relative="1" as="geometry" />
