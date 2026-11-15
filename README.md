@@ -1,6 +1,6 @@
 # MySecondWorld — 아키텍처 도면
 
-[MySecondWorld](https://github.com/BAESOOHYUN/MySecondWorld)(Unity 6 기반 크로스플랫폼 멀티플레이어 액션 RPG, 1인 개발)의 아키텍처 도면 저장소입니다. 도면 13장이 `architecture.drawio` 한 파일에 들어 있습니다.
+[MySecondWorld](https://github.com/BAESOOHYUN/MySecondWorld)(Unity 6 기반 크로스플랫폼 멀티플레이어 액션 RPG, 1인 개발)의 아키텍처 도면 저장소입니다. 도면 15장이 `architecture.drawio` 한 파일에 들어 있습니다.
 
 ## 👉 [도면 바로 보기](https://viewer.diagrams.net/?lightbox=1&nav=1&layers=1&title=MySecondWorld#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FBAESOOHYUN%2FMySecondWorld-Architecture%2Fmain%2Farchitecture.drawio)
 
@@ -23,6 +23,8 @@
 | 11 | 쉐어드 스크린 (파일 공유) |
 | 12 | 렌더링 최적화 · 오브젝트 풀링 |
 | 13 | 빌드 · 배포 파이프라인 |
+| 14 | AI NPC 기억 · 상점 — 클라이언트와 서버 |
+| 15 | 외형 동기화 — 서버 원본 · 칸 번호 · 낡은 응답 무시 |
 
 ## 함께 보기
 
